@@ -26,9 +26,11 @@ The main workflow of the problem will be illustrated in the diagram below.
 
 ![{2E86D8BE-8065-4B71-AA5B-CEA966B67561}](https://github.com/user-attachments/assets/264b6361-944f-40dd-a553-9066c73d4629)
 
-Key methods:
-- Using Docling to convert pdf files to markdown
-- Using llm to convert raw text from books to MCQs   
+
+Key Methods:
+
+- Utilizing Docling to convert PDF files into Markdown format.
+- Leveraging LLM to transform raw text from books into multiple-choice questions (MCQs).
 
 # Instruction
 
