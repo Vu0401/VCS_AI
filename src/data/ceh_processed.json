@@ -1,0 +1,656 @@
+[
+    [
+        "Which of the following would be the best example of a deterrent control?",
+        "A. A log aggregation system\nB. Hidden cameras onsite\nC. A guard posted outside the door\nD. Backup recovery systems",
+        "C. A guard posted outside the door",
+        "If you're doing something as a deterrent, you're trying to prevent an attack in the first place. In this physical security deterrent control, a guard visible outside the door could help prevent physical attacks."
+    ],
+    [
+        "Enacted in 2002, this U.S. law requires every federal agency to implement information security programs, including significant reporting on compliance and accreditation. Which of the following is the best choice for this definition?",
+        "A. FISMA\nB. HIPAA\nC. NIST 800-53\nD. OSSTMM",
+        "A. FISMA",
+        "FISMA has been around since 2002 and was updated in 2014. It gave certain information security responsibilities to NIST, OMB, and other government agencies, and declared the Department of Homeland Security (DHS) as the operational lead for budgets and guidelines on security matters."
+    ],
+    [
+        "An ethical hacker is hired to test the security of a business network. The CEH is given no prior knowledge of the network and has a specific framework in which to work, defining boundaries, nondisclosure agreements, and the completion date. Which of the following is a true statement?",
+        "A. A white hat is attempting a black-box test.\nB. A white hat is attempting a white-box test.\nC. A black hat is attempting a black-box test.\nD. A black hat is attempting a gray-box test.",
+        "A. A white hat is attempting a black-box test.",
+        "In this example, an ethical hacker was hired under a specific agreement, making him a white hat. The test he was hired to perform is a no-knowledge attack, making it a black-box test."
+    ],
+    [
+        "When an attack by a hacker is politically motivated, the hacker is said to be participating in which of the following?",
+        "A. Black-hat hacking\nB. Gray-box attacks\nC. Gray-hat attacks\nD. Hacktivism",
+        "D. Hacktivism",
+        "Hackers who use their skills and talents to forward a cause or a political agenda are practicing hacktivism."
+    ],
+    [
+        "Two hackers attempt to crack a company's network resource security. One is considered an ethical hacker, whereas the other is not. What distinguishes the ethical hacker from the 'cracker'?",
+        "A. The cracker always attempts white-box testing.\nB. The ethical hacker always attempts black-box testing.\nC. The cracker posts results to the Internet.\nD. The ethical hacker always obtains written permission before testing.",
+        "D. The ethical hacker always obtains written permission before testing.",
+        "The ethical hacker always obtains written permission before testing and never performs a test without it!"
+    ],
+    [
+        "In which stage of an ethical hack would the attacker actively apply tools and techniques to gather more in-depth information on the targets?",
+        "A. Active reconnaissance\nB. Scanning and enumeration\nC. Gaining access\nD. Passive reconnaissance",
+        "B. Scanning and enumeration",
+        "The second of the five phases of an ethical hack attempt, scanning and enumeration, is the step where ethical hackers take the information they gathered in recon and actively apply tools and techniques to gather more in-depth information on the targets."
+    ],
+    [
+        "Which type of attack is generally conducted as an inside attacker with elevated privileges on the resources?",
+        "A. Gray box\nB. White box\nC. Black box\nD. Active reconnaissance",
+        "B. White box",
+        "A white-box attack is intended to simulate an internal attacker with elevated privileges, such as a network administrator."
+    ],
+    [
+        "Which of the following Common Criteria processes refers to the system or product being tested?",
+        "A. ST\nB. PP\nC. EAL\nD. TOE",
+        "D. TOE",
+        "The target of evaluation (TOE) is the system or product being tested."
+    ],
+    [
+        "Your company has a document that spells out exactly what employees are allowed to do on their computer systems. It also defines what is prohibited and what consequences await those who break the rules. A copy of this document is signed by all employees prior to their network access. Which of the following best describes this policy?",
+        "A. Information security policy\nB. Special access policy\nC. Information audit policy\nD. Network connection policy",
+        "A. Information security policy",
+        "The information security policy defines what is allowed and not allowed, and what the consequences are for misbehavior in regard to resources on the corporate network. Generally this is signed by employees prior to their account creation."
+    ],
+    [
+        "Sally is a member of a pen test team newly hired to test a bank's security. She begins searching for IP addresses the bank may own by searching public records on the Internet. She also looks up news articles and job postings to discover information that may be valuable. In what phase of the pen test is Sally working?",
+        "A. Preparation\nB. Assessment\nC. Conclusion\nD. Reconnaissance",
+        "B. Assessment",
+        "The assessment phase, which EC-Council also likes to interchangeably denote as the 'conduct' phase sometimes, is where all the activity takes place-including the passive information gathering performed by Sally in this example."
+    ],
+    [
+        "Joe is a security engineer for a firm. His company downsizes, and Joe discovers he will be laid off within a short amount of time. Joe plants viruses and sets about destroying data and settings throughout the network, with no regard to being caught. Which type of hacker is Joe considered to be?",
+        "A. Hacktivist\nB. Suicide hacker\nC. Black hat\nD. Script kiddie",
+        "B. Suicide hacker",
+        "A suicide hacker doesn't care about being caught. Jail time and punishment mean nothing to these guys. While sometimes they are tied to a political or religious group or function, sometimes they're just angry folks looking to make an entity pay for some perceived wrongdoing."
+    ],
+    [
+        "Elements of security include confidentiality, integrity, and availability. Which technique provides for integrity?",
+        "A. Encryption\nB. UPS\nC. Hashing\nD. Passwords",
+        "C. Hashing",
+        "A hash is a unique numerical string, created by a hashing algorithm on a given piece of data, used to verify data integrity. Generally, hashes are used to verify the integrity of files after download (comparison to the hash value on the site before download) and/or to store password values. Hashes are created by a one-way algorithm."
+    ],
+    [
+        "A member of your team enters the following command:",
+        "A. nmap -A IPAddress\nB. nmap -all IPAddress\nC. nmap -Os IPAddress\nD. nmap -aA IPAddress",
+        "A. nmap -A IPAddress",
+        "The -A switch turns on OS detection, version detection, script scanning, and traceroute, just as the -O, -sV, -sC, and -traceroute switches do in conjunction with each other."
+    ],
+    [
+        "You want to perform banner grabbing against a machine (168.15.22.4) you suspect as being a web server. Assuming you have the correct tools installed, which of the following command-line entries will successfully perform a banner grab? (Choose all that apply.)",
+        "A. telnet 168.15.22.4 80\nB. telnet 80 168.15.22.4\nC. nc -v -n 168.15.22.4 80\nD. nc -v -n 80 168.15.22.4",
+        "A. telnet 168.15.22.4 80\nC. nc -v -n 168.15.22.4 80",
+        "Both Telnet and Netcat, among others, can be used for banner grabbing. The correct syntax for both has the port number last."
+    ],
+    [
+        "You've decided to begin scanning against a target organization but want to keep your efforts as quiet as possible. Which IDS evasion technique splits the TCP header among multiple packets?",
+        "A. Fragmenting\nB. IP spoofing\nC. Proxy scanning\nD. Anonymizer",
+        "A. Fragmenting",
+        "Fragmenting packets is a great way to evade an IDS, for any purpose. Sometimes referred to as IP fragments, splitting a TCP header across multiple packets can serve to keep you hidden while scanning."
+    ],
+    [
+        "One of your team members is analyzing TTL fields and TCP window sizes in order to fingerprint the OS of a target. Which of the following is most likely being attempted?",
+        "A. Online OS fingerprinting\nB. Passive OS fingerprinting\nC. Aggressive OS fingerprinting\nD. Active OS fingerprinting",
+        "B. Passive OS fingerprinting",
+        "Generally, any activity noted in a question that does not explicitly state you are crafting packets and injecting them toward a system indicates you are passively observing traffic-in this case, most likely with a sniffed traffic log."
+    ],
+    [
+        "What flag or flags are sent in the segment during the second step of the TCP three-way handshake?",
+        "A. SYN\nB. ACK\nC. SYN/ACK\nD. ACK/FIN",
+        "C. SYN/ACK",
+        "A three-way TCP handshake has the originator forward a SYN. The recipient, in step 2, sends a SYN and an ACK. In step 3, the originator responds with an ACK. The steps are referred to as SYN, SYN/ACK, ACK."
+    ],
+    [
+        "You are port scanning a system and begin sending TCP packets with the ACK flag set. Examining the return packets, you see a return packet for one port has the RST flag set and the TTL is less than 64. Which of the following is true?",
+        "A. The response indicates an open port.\nB. The response indicates a closed port.\nC. The response indicates a Windows machine with a nonstandard TCP/IP stack. D. ICMP is filtered on the machine.",
+        "A. The response indicates an open port.",
+        "According to ECC, if the TTL of the returned RST packet is less than 64, the port is open."
+    ],
+    [
+        "An ethical hacker is ACK-scanning against a network segment he knows is sitting behind a stateful firewall. If a scan packet receives no response, what does that indicate?",
+        "A. The port is filtered at the firewall.\nB. The port is not filtered at the firewall.\nC. The firewall allows the packet, but the device has the port closed.\nD. It is impossible to determine any port status from this response.",
+        "A. The port is filtered at the firewall.",
+        "An ACK packet received by a stateful firewall will not be allowed to pass unless it was 'sourced' from inside the network. No response indicates the firewall filtered that port packet and did not allow it passage."
+    ],
+    [
+        "Which flag forces a termination of communications in both directions?",
+        "A. RST\nB. FIN\nC. ACK\nD. PSH",
+        "A. RST",
+        "The RST flag forces both sides of the communications channel to stop. A FIN flag signifies an ordered close to the communications."
+    ],
+    [
+        "You are examining a host with an IP address of 52.93.24.42/20 and want to determine the broadcast address for the subnet. Which of the following is the correct broadcast address for the subnet?",
+        "A. 52.93.24.255\nB. 52.93.0.255\nC. 52.93.32.255\nD. 52.93.31.255\nE. 52.93.255.255",
+        "D. 52.93.31.255",
+        "If you look at the address 52.93.24.42 in binary, it looks like this: 00110100.0 1011101.00011000.00101010. The subnet mask given, /20, tells us only the first 20 bits count as the network ID (which cannot change if we are to stay in the same subnet), and the remaining 12 bits belong to the host. Turning off all the host bits (after the 20th) gives us our network ID: 00110100.01011101.0001 0000.000000 00 (52.93.16.0/20). Turning on all the host bits gives us our broadcast address: 001 10100.01011101.0001 1111.11111111 (52.93.31.255/20)."
+    ],
+    [
+        "Which port number is used by default for syslog?",
+        "A. 21\nB. 23\nC. 69\nD. 514",
+        "D. 514",
+        "Syslog uses 514 by default. Even if you had no idea, the other answers provided are very well-known default ports (FTP, Telnet, TFTP), so you can eliminate them as possible answers."
+    ],
+    [
+        "Which of the following commands would you use to quickly identify live targets on a subnet? (Choose all that apply.)",
+        "A. nmap -A 172.17.24.17\nB. nmap -O 172.17.24.0/24\nC. nmap -sn 172.17.24.0/24\nD. nmap -PI 172.17.24.0/24",
+        "C. nmap -sn 172.17.24.0/24\nD. nmap -PI 172.17.24.0/24",
+        "Both the -sn and -PI switches will accomplish the task quickly and efficiently."
+    ],
+    [
+        "You're running an IDLE scan and send the first packet to the target machine. Next, the SYN/ACK packet is sent to the zombie. The IPID on the return packet from the zombie is 36754. If the starting IPID was 36753, in what state is the port on the target machine?",
+        "A. Open\nB. Closed\nC. Unknown\nD. None of the above",
+        "B. Closed",
+        "Since the IPID incremented by only one, this means the zombie hasn't sent anything since your original SYN/ACK to figure out the starting IPID. If the IPID had increased by two, then the port would be open because the zombie would have responded to the target machine's SYN/ACK."
+    ],
+    [
+        "Which ICMP message type/code indicates the packet could not arrive at the recipient due to exceeding its time to live?",
+        "A. Type 11\nB. Type 3, Code 1\nC. Type 0\nD. Type 8",
+        "A. Type 11",
+        "A Type 11 ICMP packet indicates the TTL for the packet has reached 0; therefore, it must take the Carrousel (from the movie Logan's Run ) and disappear to a better place."
+    ],
+    [
+        "An ethical hacker is sending TCP packets to a machine with the SYN flag set. None of the SYN/ACK responses on open ports is being answered. Which type of port scan is this?",
+        "A. Ping sweep\nB. XMAS\nC. Stealth\nD. Full",
+        "C. Stealth",
+        "ECC defines as a stealth scan what most of us used to call a half-open scan (although I suppose it would actually make more sense mathematically to call it a two-thirds scan, since it's a three-way handshake and only two are used). This is also known as a SYN scan."
+    ],
+    [
+        "Which of the following best describes a honeypot?",
+        "A. It is used to filter traffic from screened subnets.\nB. It is used to gather information about potential network attackers.\nC. It is used to analyze traffic for detection signatures.\nD. Its primary function involves malware and virus protection.",
+        "B. It is used to gather information about potential network attackers.",
+        "A honeypot is designed to draw attackers in so you can watch what they do, how they do it, and where they do it from."
+    ],
+    [
+        "Which of the following Wireshark filters would display all traffic sent from, or destined to, systems on the 172.17.15.0/24 subnet? (Choose all that apply.)",
+        "A. ip.addr == 172.17.15.0/24\nB. ip.src == 172.17.15.0/24 and ip.dst == 172.17.15.0/24\nC. ip.src == 172.17.15.0/24 or ip.dst == 172.17.15.0/24\nD. ip.src == 172.17.15.0/24 and ip.dst == 172.17.15.0/24",
+        "A. ip.addr == 172.17.15.0/24\nC. ip.src == 172.17.15.0/24 or ip.dst == 172.17.15.0/24",
+        "In Wireshark filter questions, always pay attention to the operators. While answer A shows any packet with the correct IP address in it, anywhere, the or operator in answer C shows packets meeting both options."
+    ],
+    [
+        "Which of the following best describes active sniffing? (Choose all that apply.)",
+        "A. Active sniffing is usually required when hubs are in place.\nB. Active sniffing is usually required when switches are in place.\nC. Active sniffing is harder to detect than passive sniffing.\nD. Active sniffing is easier to detect than passive sniffing.",
+        "B. Active sniffing is usually required when switches are in place.\nD. Active sniffing is easier to detect than passive sniffing.",
+        "If you're on a hub, why bother with active sniffing techniques? You're already seeing everything. Also, active sniffing is much more likely to get you caught than simply plugging in a wire and sitting back."
+    ],
+    [
+        "Your client tells you they know beyond a doubt an attacker is sending messages back and forth from their network, yet the IDS doesn't appear to be alerting on the traffic. Which of the following is most likely true?",
+        "A. The attacker is sending messages over an SSL tunnel.\nB. The attacker has corrupted ACLs on every router in the network.\nC. The attacker has set up port security on network switches.\nD. The attacker has configured a trunk port on a switch.",
+        "A. The attacker is sending messages over an SSL tunnel.",
+        "Encryption is the bane of an IDS's existence. If traffic is encrypted, the IDS is blind as a bat."
+    ],
+    [
+        "Which display filter for Wireshark shows all TCP packets containing the word facebook?",
+        "A. content==facebook\nB. tcp contains facebook\nC. display==facebook\nD. tcp.all contains ==facebook",
+        "B. tcp contains facebook",
+        "The appropriate Wireshark display filter is the following: tcp contains search-string"
+    ],
+    [
+        "Which of the following best defines steganography?",
+        "A. Steganography is used to hide information within existing files.\nB. Steganography is used to create hash values of data files.\nC. Steganography is used to encrypt data communications, allowing files to be passed unseen.\nD. Steganography is used to create multimedia communication files.",
+        "A. Steganography is used to hide information within existing files.",
+        "Steganography is designed to place information in files where it will lay hidden until needed. Information can be hidden in virtually any file, although image and video files are traditionally associated with steganography."
+    ],
+    [
+        "Which encryption standard is used by LM?",
+        "A. MD5\nB. SHA-1\nC. DES\nD. SHA-2\nE. 3DES",
+        "C. DES",
+        "LAN Manager (LM), an old and outdated authentication system, used DES, an old and outdated means for hashing files (in this case, passwords)."
+    ],
+    [
+        "Which of the following would be considered a passive online password attack?",
+        "A. Guessing passwords against an IPC$ share\nB. Sniffing subnet traffic to intercept a password\nC. Running John the Ripper on a stolen copy of the SAM\nD. Sending a specially crafted PDF to a user for that user to open",
+        "B. Sniffing subnet traffic to intercept a password",
+        "Passive online attacks simply involve stealing passwords passed in clear text or copying the entire password exchange in the hopes of pulling off a reply or manin-the-middle attack."
+    ],
+    [
+        "A user on Joe's network does not need to remember a long password. Users on Joe's network log in using a token and a four-digit PIN. Which authentication measure best describes this?",
+        "A. Multifactor authentication\nB. Three-factor authentication\nC. Two-factor authentication\nD. Token authentication",
+        "C. Two-factor authentication",
+        "Because Joe's users need something they have (a token) and something they know (the PIN), this is considered two-factor authentication."
+    ],
+    [
+        "Which of the following best defines a hybrid attack?",
+        "A. The attack uses a dictionary list, trying words from random locations in the file until the password is cracked.\nB. The attack tries random combinations of characters until the password is cracked.\nC. The attack uses a dictionary list, substituting letters, numbers, and characters in the words until the password is cracked.\nD. The attack uses rainbow tables, randomly attempting hash values throughout the list until the password is cracked.",
+        "C. The attack uses a dictionary list, substituting letters, numbers, and characters in the words until the password is cracked.",
+        "The hybrid attack takes any old dictionary list and juices it up a little. It substitutes numbers for letters, injects a character or two, and runs numerous hybrid versions of your word list in an attempt to crack passwords."
+    ],
+    [
+        "While pen testing a client, you discover that LM hashing, with no salting, is still engaged for backward compatibility on most systems. One stolen password hash reads 9FAF6B755DC38E12AAD3B435B51404EE. Is this user following good password procedures?",
+        "E. Is this user following good password procedures?\nA. Yes, the hash shows a 14-character, complex password.\nB. No, the hash shows a 14-character password; however, it is not complex.\nC. No, the hash reveals a 7-character-or-less password has been used.\nD. It is impossible to determine simply by looking at the hash.",
+        "C. No, the hash reveals a 7-character-or-less password has been used.",
+        "LM hashes pad a password with blank spaces to reach 14 characters, split it into two 7-character sections, and then hash both separately. Because the LM hash of seven blank characters is always AAD3B435B51404EE, you can tell from the hash that the user has used only seven or fewer characters in the password. Because CEH recommends that a password be a minimum of eight characters, be complex, and expire after 30 days, the user is not following good policy."
+    ],
+    [
+        "Where is the SAM file stored on a Windows 7 system?",
+        "A. /etc/\nB. C:\\Windows\\System32\\etc\\\nC. C:\\Windows\\System32\\Config\\\nD. C:\\Windows\\System32\\Drivers\\Config",
+        "C. C:\\Windows\\System32\\Config\\",
+        "The SAM file is stored in the same folder on most Windows machines: C:\\Windows\\System32\\Config\\."
+    ],
+    [
+        "Examining a database server during routine maintenance, you discover an hour of time missing from the log file, during what would otherwise be normal operating hours. Further investigation reveals no user complaints on accessibility. Which of the following is the most likely explanation?",
+        "A. The log file is simply corrupted.\nB. The server was compromised by an attacker.\nC. The server was rebooted.\nD. No activity occurred during the hour time frame.",
+        "B. The server was compromised by an attacker.",
+        "It's a database server during normal business hours and there's nothing in the log? Forget the fact a reboot would've showed up somewhere-none of the users complained about it being down at all. No, this one is going to require some forensics work. Call the IR team."
+    ],
+    [
+        "Which of the following can migrate the machine's actual operating system into a virtual machine?",
+        "A. Hypervisor-level rootkit\nB. Kernel-level rootkit\nC. Virtual rootkit\nD. Library-level rootkit",
+        "A. Hypervisor-level rootkit",
+        "The hypervisor-level rootkit is defined by ECC as one that basically replaces your physical OS with a virtual one."
+    ],
+    [
+        "After gaining access to a Windows machine, you see the last command executed on the box looks like this:",
+        "A. In Windows Explorer, a folder appears under the root directory named BankFiles.\nB. In Windows Explorer, a drive appears denoted as BankFiles (\\\\MATTBOX) (F:).\nC. The mapped drive will remain mapped after a reboot.\nD. The mapped drive will not remain mapped after a reboot.",
+        "B. In Windows Explorer, a drive appears denoted as BankFiles (\\\\MATTBOX) (F:).\nC. The mapped drive will remain mapped after a reboot.",
+        "net use commands were the rage back in the day. This command connects to a shared folder on MATTBOX. The shared folder is named BankFiles, and the mapping will display as a drive (F:) on the local machine. The persistent:yes portion means it will remain mapped forever, until you turn it off."
+    ],
+    [
+        "An attacker has hidden badfile.exe in the readme.txt file. Which of the following is the correct command to execute the file?",
+        "A. start readme.txt>badfile.exe\nB. start readme.txt:badfile.exe\nC. start badfile.exe > readme.txt\nD. start badfile.exe | readme.txt",
+        "B. start readme.txt:badfile.exe",
+        "The command start readme.txt:badfile.exe says 'Start the executable badfile. exe that is hidden in the readme.txt file.' In other variants of this question, the bad guy could create a link and execute it simply by typing the link name (for example, mklink innocent.exe readme.txt:badfile.exe would create a link, and the bad file could be executed simply by typing innocent )."
+    ],
+    [
+        "A WPA2 wireless network is discovered during a pen test. Which of the following methods is the best way to crack the network key?",
+        "A. Capture the WPA2 authentication traffic and crack the key.\nB. Capture a large amount of initialization vectors and crack the key inside.\nC. Use a sniffer to capture the SSID.\nD. WPA2 cannot be cracked.",
+        "A. Capture the WPA2 authentication traffic and crack the key.",
+        "WPA2 is a strong encryption method, but almost everything can be hacked, given enough time. Capturing the password pairwise master key (PMK) during the handshake is the best way to do it, and even then it's virtually impossible if it's a complicated password."
+    ],
+    [
+        "You are discussing wireless security with your client. He tells you he feels safe with his network because he has turned off SSID broadcasting. Which of the following is a true statement regarding his attempt at security?",
+        "A. Unauthorized users will not be able to associate because they must know the SSID in order to connect.\nB. Unauthorized users will not be able to connect because DHCP is tied to SSID broadcast.\nC. Unauthorized users will still be able to connect because nonbroadcast SSID puts the AP in ad hoc mode.\nD. Unauthorized users will still be able to connect because the SSID is still sent in all packets, and a sniffer can easily discern the string.",
+        "D. Unauthorized users will still be able to connect because the SSID is still sent in all packets, and a sniffer can easily discern the string.",
+        "Turning off the broadcast of an SSID is a good step, but SSIDs do nothing in regard to security. The SSID is included in every packet, regardless of whether it's broadcast from the AP."
+    ],
+    [
+        "You are discussing wireless security with your client. She tells you she feels safe with her network because she has implemented MAC filtering on all access points, allowing only MAC addresses from clients she personally configures in each list. You explain this step will not prevent a determined attacker from connecting to her network. Which of the following explains why the APs are still vulnerable?",
+        "A. WEP keys are easier to crack when MAC filtering is in place.\nB. MAC addresses are dynamic and can be sent via DHCP.\nC. An attacker could sniff an existing MAC address and spoof it.\nD. An attacker could send a MAC flood, effectively turning the AP into a hub.",
+        "C. An attacker could sniff an existing MAC address and spoof it.",
+        "MAC filtering is easily hacked by sniffing the network for a valid MAC and then spoofing it, using any number of options available."
+    ],
+    [
+        "What information is required in order to attempt to crack a WEP AP? (Choose two.)",
+        "A. Network SSID\nB. MAC address of the AP\nC. IP address of the AP\nD. Starting sequence number in the first initialization vector",
+        "A. Network SSID\nB. MAC address of the AP",
+        "The network SSID and the MAC address of the AP are required for attempting a WEP crack."
+    ],
+    [
+        "Which of the following protects against man-in-the-middle attacks in WPA?",
+        "A. MIC\nB. CCMP\nC. EAP\nD. AES",
+        "A. MIC",
+        "A MIC (message integrity code) provides integrity checking in WPA, verifying frames are authentic and have not been tampered with. Part of how it accomplishes this is a sequence number-if any frames arrive out of sequence, the whole session is dropped."
+    ],
+    [
+        "Which of the following is the best choice for detecting wireless LANs using the 802.11a/b/g/n WLAN standards on a Linux platform?",
+        "A. Kismet\nB. Nessus\nC. NetStumbler\nD. Cain and Abel",
+        "A. Kismet",
+        "Kismet is your best option here, as the other tools simply don't fit the bill."
+    ],
+    [
+        "A user calls with a problem. Her laptop uses the same hardware and software as many of the other clients on the network, and she can see the wireless network but cannot connect. You run a sniffer, and results show the WAP is not responding to the association requests being sent by the wireless client. Of the following choices, which is the most likely source of the problem?",
+        "A. The wireless client does not use DHCP.\nB. The wireless client is on the wrong wireless channel.\nC. The WAP has MAC filtering engaged and does not recognize the MAC.\nD. SSID security is preventing the connection.",
+        "C. The WAP has MAC filtering engaged and does not recognize the MAC.",
+        "There may be more to the story, but given everything in the scenario, MAC filtering is probably the culprit here. Given the same hardware and software setup, it's unlikely it's a channel issue, and the other options make no sense at all.\n\n## 304"
+    ],
+    [
+        "Which of the following provides for integrity in WPA2?",
+        "A. AES\nB. CCMP\nC. TKIP\nD. RADIUS",
+        "B. CCMP",
+        "Cipher Block Chaining Message Authentication Code Protocol uses message integrity codes (MICs) for integrity purposes."
+    ],
+    [
+        "Which of the following is a true statement?",
+        "A. Configuring a strong SSID is a vital step in securing your network.\nB. An SSID should always be more than eight characters in length.\nC. An SSID should never be a dictionary word or anything easily guessed.\nD. SSIDs are important for identifying networks but do little to nothing for security.",
+        "D. SSIDs are important for identifying networks but do little to nothing for security.",
+        "An SSID is used for nothing more than identifying the network. It is not designed as a security measure."
+    ],
+    [
+        "Which wireless encryption technology makes use of temporal keys?",
+        "A. WAP\nB. WPA\nC. WEP\nD. EAP",
+        "B. WPA",
+        "WPA uses temporal keys, making it a much stronger encryption choice than WEP."
+    ],
+    [
+        "Which of the following is the best choice for performing a Bluebugging attack?",
+        "A. PhoneSnoop\nB. BBProxy\nC. btCrawler\nD. Blooover",
+        "D. Blooover",
+        "Blooover is designed for Bluebugging. BBProxy and PhoneSnoop are both Blackberry tools, and btCrawler is a discovery option."
+    ],
+    [
+        "The operations staff promotes the use of mobile devices in the enterprise. The security team disagrees, noting multiple risks involved in adding mobile devices to the network. Which of the following actions provides some protections against the risks the security team is concerned about?",
+        "A. Implement WPA.\nB. Add MAC filtering to all WAPs.\nC. Implement MDM.\nD. Ensure all WAPs are from a single vendor.",
+        "C. Implement MDM.",
+        "Mobile device management won't mitigate all the risks associated with unending use of mobile devices on your network-but at least it's some measure of control ."
+    ],
+    [
+        "You want to gain administrative privileges over your Android device. Which of the following tools is the best option for rooting the device?",
+        "A. Pangu\nB. OneClickRoot\nC. Cydia\nD. evasi0n7",
+        "B. OneClickRoot",
+        "OneClickRoot is designed for rooting Android. The others are jailbreaking iOS options."
+    ],
+    [
+        "Which of the following jailbreaking techniques will leave the phone in a jailbroken state even after a reboot?",
+        "A. Tethered\nB. Untethered\nC. Semi-tethered\nD. Rooted",
+        "B. Untethered",
+        "If untethered jailbreaking has been performed, the device is in a jailbroken state forever, with or without connection to another device."
+    ],
+    [
+        "A mobile device communication session using SSL fails, and data is available for viewing by an attacker. Which OWASP Top 10 Mobile Vulnerability category has been made available for exploit?",
+        "A. M3: Insecure Communication\nB. M4: Insufficient Authentication\nC. M5: Insufficient Cryptography\nD. M10: Extraneous Functionality",
+        "A. M3: Insecure Communication",
+        "Even though SSL refers to cryptography in communications, almost every time you see SSL or TLS, M3 is your answer."
+    ],
+    [
+        "Which of the following is an iOS jailbreaking type that cannot be patched by Apple, as the failure is within the hardware itself, and provides admin-level access after successful completion?",
+        "A. iBoot\nB. Userland\nC. Untethered\nD. BootROM",
+        "D. BootROM",
+        "BootROM deals with hardware and provides admin privileges. The remaining answers either don't provide admin access, have patch availability, or, in the case of untethered, aren't applicable."
+    ],
+    [
+        "Which IoT communication model makes use of a component adding a collective (aka a gateway device) before sending data to the cloud, which adds a measure of security control to the application?",
+        "A. Device to device\nB. Device to cloud\nC. Device to gateway\nD. Device to security",
+        "C. Device to gateway",
+        "The IoT gateway provides a collective area that allows for at least some measure of security controls."
+    ],
+    [
+        "Which OWASP IoT Top 10 vulnerability category deals with poorly protected passwords?",
+        "A. I1: Weak, Guessable, or Hardcoded Passwords\nB. I2: Insecure Network Services\nC. I8: Lack of Device Management\nD. I9: Insecure Default Settings",
+        "B. I2: Insecure Network Services",
+        "I2: Insecure Network Services is the clear answer here."
+    ],
+    [
+        "An attacker leverages a vulnerability within Bluetooth on an IoT device and successfully shuts down the air conditioning to the data center floor. Which of the following best describes the attack type used?",
+        "A. HVAC\nB. BlueAir\nC. Rolling code\nD. BlueBorne",
+        "A. HVAC",
+        "An HVAC IoT device attack is exactly what's being described here. Rolling code isn't applicable, BlueBorne isn't the best choice, and BlueAir doesn't exist."
+    ],
+    [
+        "In which phase of the IoT hacking methodology would the Shodan search engine most likely be used?",
+        "A. Vulnerability scanning\nB. Information gathering\nC. Launching attacks\nD. Gaining access",
+        "B. Information gathering",
+        "Shodan is, after all, a search engine. While it may be useful in other areas, it's clearly an information-gathering tool."
+    ],
+    [
+        "Which of the following tools is the best choice for sniffing IoT traffic?",
+        "A. Firmalyzer\nB. beSTORM\nC. Foren6\nD. Shodan",
+        "C. Foren6",
+        "Foren6 is the only IoT traffic sniffer listed."
+    ],
+    [
+        "Which ICS control system mode compares the monitored output of an action to a desired state?",
+        "A. Open loop\nB. Manual\nC. Closed loop\nD. Circular",
+        "C. Closed loop",
+        "Closed loop control systems have the control action entirely dependent on the desired output."
+    ],
+    [
+        "Implementing cloud computing provides many benefits. Which of the following is the best choice of a security principle applicable to implementing cloud security?",
+        "A. Need to know\nB. Least privilege\nC. Job rotation\nD. Separation of duties",
+        "D. Separation of duties",
+        "While implementing cloud computing doesn't fully address separation of duties, of the choices provided it's the only one that makes sense. The cloud, by its nature, can separate the data owner from the data custodian (the cloud provider assumes the role)."
+    ],
+    [
+        "Which of the following best represents SOA?",
+        "A. File server\nB. An application containing both the user interface and the code allowing access to the data\nC. An API that allows different components to communicate\nD. A single database accessed by multiple sources",
+        "C. An API that allows different components to communicate",
+        "Service-oriented architecture (SOA) is all about software components delivering information to one another on a network, and this is the best available answer."
+    ],
+    [
+        "Which cloud computing model is geared toward software development?",
+        "A. IaaS\nB. PaaS\nC. SaaS\nD. Private",
+        "B. PaaS",
+        "Platform as a Service (PaaS) provides a development platform that allows subscribers to develop applications without building the infrastructure that normally would be required to develop and launch software."
+    ],
+    [
+        "Amazon EC2 provides virtual machines that can be controlled through a service API. Which of the following best defines this service?",
+        "A. IaaS\nB. PaaS\nC. SaaS\nD. Public",
+        "A. IaaS",
+        "Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud via VMs that can be controlled via an API, thus fitting the definition of IaaS."
+    ],
+    [
+        "Google Docs and Salesforce CRM are two examples of which cloud computing service type?",
+        "A. IaaS\nB. PaaS\nC. SaaS\nD. Public",
+        "C. SaaS",
+        "Software as a Service best describes this. SaaS is simply a software distribution model-the provider offers on-demand applications to subscribers over the Internet."
+    ],
+    [
+        "Which of the following cloud computing attacks can be best described as a CSRF attack?",
+        "A. Session riding\nB. Side channel\nC. Cross-guest VM breach\nD. Hypervisor attack",
+        "A. Session riding",
+        "Session riding is simply cross-site request forgery (CSRF) under a different name and deals with cloud services instead of traditional data centers."
+    ],
+    [
+        "Which of the following best describes a wrapping attack?",
+        "A. CSRF-type attack against cloud computing resources.\nB. An attack that involves leveraging a new or existing VM on a physical device against another VM.\nC. A SOAP message is intercepted, data in the envelope is changed, and then the data is sent/replayed.\nD. The virtual machine management system on the physical machine is corrupted or administrative control is gained over it.",
+        "C. A SOAP message is intercepted, data in the envelope is changed, and then the data is sent/replayed.",
+        "Wrapping attacks involve messing with SOAP messages and replaying them as legitimate."
+    ],
+    [
+        "In the NIST Cloud Computing Reference Architecture, which of the following has the responsibility of transmitting the data?",
+        "A. Cloud provider\nB. Cloud carrier\nC. Cloud broker\nD. Cloud consumer",
+        "B. Cloud carrier",
+        "Akin to the power distributor for the electric grid, the cloud carrier is the intermediary for connectivity and transport between subscriber and provider."
+    ],
+    [
+        "In the NIST Cloud Computing Reference Architecture, which component acts to manage use, performance, and delivery of cloud services, as well as the relationships between providers and subscribers?",
+        "A. Cloud provider\nB. Cloud carrier\nC. Cloud broker\nD. Cloud consumer",
+        "C. Cloud broker",
+        "Per SP 500-292, the cloud broker 'acts as the intermediate between consumer and provider and will help consumers through the complexity of cloud service offerings and may also create value-added cloud services as well.'"
+    ],
+    [
+        "Which of the following attacks acts as a man in the middle, exploiting fallback mechanisms in TLS clients?",
+        "A. POODLE\nB. Heartbleed\nC. FREAK\nD. DROWN",
+        "A. POODLE",
+        "In a POODLE attack, the man in the middle interrupts all handshake attempts by TLS clients, forcing a degradation to a vulnerable SSL version."
+    ],
+    [
+        "RC4 is a simple, fast encryption cipher. Which of the following is not true regarding RC4?",
+        "A. RC4 can be used for web encryption.\nB. RC4 uses block encryption.\nC. RC4 is a symmetric encryption cipher.\nD. RC4 can be used for file encryption.",
+        "B. RC4 uses block encryption.",
+        "RC4 is a simple, fast, symmetric stream cipher. It can be used for almost everything you can imagine an encryption cipher could be used for (you can even find it in WEP)."
+    ],
+    [
+        "An organization has decided upon AES with a 256-bit key to secure data exchange. What is the primary consideration for this?",
+        "A. AES is slow.\nB. The key size makes data exchange bulky and complex.\nC. It uses a shared key for encryption.\nD. AES is a weak cipher.",
+        "C. It uses a shared key for encryption.",
+        "AES is a symmetric algorithm, which means that the same key is used for encryption and decryption. The organization will have to find a secured means to transmit the key to both parties before any data exchange."
+    ],
+    [
+        "Joe and Bob are both ethical hackers and have gained access to a folder. Joe has several encrypted files from the folder, and Bob has found one of them unencrypted. Which of the following is the best attack vector for them to follow?",
+        "A. Cipher text only\nB. Known plain text\nC. Chosen cipher text\nD. Replay",
+        "B. Known plain text",
+        "In a known plain-text attack, the hacker has both plain-text and cipher-text messages; the plain-text copies are scanned for repeatable sequences, which are then compared to the cipher-text versions. Over time, and with effort, this can be used to decipher the key."
+    ],
+    [
+        "You are reviewing an organization's security plans and policies, and you want to add protection for the organization's laptops. Which effort listed protects system folders, files, and MBR until valid credentials are provided at pre-boot?",
+        "A. Cloud computing\nB. SSL/TLS\nC. Full disk encryption\nD. AES",
+        "C. Full disk encryption",
+        "FDE is the appropriate control for data-at-rest protection. Pre-boot authentication provides protection against loss or theft."
+    ],
+    [
+        "Which of the following is used to distribute a public key within the PKI system, verifying the user's identity to the recipient?",
+        "A. Digital signature\nB. Hash value\nC. Private key\nD. Digital certificate",
+        "D. Digital certificate",
+        "A digital certificate contains, among other things, the sender's public key, and it can be used to identify the sender."
+    ],
+    [
+        "A hacker feeds plain-text files into a hash, eventually finding two or more that create the same fixed-value hash result. This anomaly is known as what?",
+        "A. Collision\nB. Chosen plain text\nC. Hash value compromise\nD. Known plain text",
+        "A. Collision",
+        "When two or more plain-text entries create the same fixed-value hash result, a collision has occurred."
+    ],
+    [
+        "An attacker uses a Metasploit auxiliary exploit to send a series of small messages to a server at regular intervals. The server responds with 64Kb of data from its memory. Which of the following best describes the attack being used?",
+        "A. POODLE\nB. Heartbleed\nC. FREAK\nD. DROWN",
+        "B. Heartbleed",
+        "Heartbleed takes advantage of the data-echoing acknowledgement heartbeat in SSL. OpenSSL versions 1.0.1 through version 1.0.1f are vulnerable to this attack."
+    ],
+    [
+        "Which of the following statements is true regarding encryption algorithms?",
+        "A. Symmetric algorithms are slower, are good for bulk encryption, and have no scalability problems.\nB. Symmetric algorithms are faster, are good for bulk encryption, and have no scalability problems.\nC. Symmetric algorithms are faster, are good for bulk encryption, but have scalability problems.\nD. Symmetric algorithms are faster but have scalability problems and are not suited for bulk encryption.",
+        "C. Symmetric algorithms are faster, are good for bulk encryption, but have scalability problems.",
+        "Symmetric algorithms are fast, are good for bulk encryption, but have scalability problems."
+    ],
+    [
+        "Within a PKI system, Julia encrypts a message for Heidi and sends it. Heidi receives the message and decrypts the message using what?",
+        "A. Julia's public key\nB. Julia's private key\nC. Heidi's public key\nD. Heidi's private key",
+        "D. Heidi's private key",
+        "Heidi's public key is used to encrypt the message. Her private key is used to decrypt it."
+    ],
+    [
+        "Which of the following is a symmetric encryption method that transforms a fixed-length amount of plain text into an encrypted version of the same length?",
+        "A. Stream\nB. Block\nC. Bit\nD. Hash",
+        "B. Block",
+        "Block encryption takes a fixed-length block of plain text and converts it to an encrypted block of the same length."
+    ],
+    [
+        "Which symmetric algorithm uses variable block sizes (from 32 to 128 bits)?",
+        "A. DES\nB. 3DES\nC. RC\nD. MD5",
+        "C. RC",
+        "Rivest Cipher (RC) uses variable block sizes (from 32 to 128 bits)."
+    ],
+    [
+        "Which hash algorithm produces a 160-bit output value?",
+        "A. SHA-1\nB. SHA-2\nC. Diffie-Hellmann\nD. MD5",
+        "A. SHA-1",
+        "SHA-1 produces a 160-bit output value."
+    ],
+    [
+        "Two different companies each have their own public key infrastructure up and running. When the two companies merge, security personnel want both PKIs to validate certificates from each other. What must the CAs for both companies establish to accomplish this?",
+        "A. Key exchange portal\nB. Key revocation portal\nC. Cross-site exchange\nD. Cross-certification",
+        "D. Cross-certification",
+        "When PKIs need to talk to one another and trust certificates from either side, the CAs need to set up a mutual trust known as cross-certification."
+    ],
+    [
+        "Within a PKI, which of the following verifies the applicant?",
+        "A. Registration authority\nB. User authority\nC. Revocation authority\nD. Primary authority",
+        "A. Registration authority",
+        "A registration authority (RA) validates an applicant into the system, making sure they are real, valid, and allowed to use the system."
+    ],
+    [
+        "An attacker creates a fake ID badge and waits next to an entry door to a secured facility. An authorized user swipes a key card and opens the door. The attacker follows the user inside. Which social engineering attack is in play here?",
+        "A. Piggybacking\nB. Tailgating\nC. Phishing\nD. Shoulder surfing",
+        "B. Tailgating",
+        "In tailgating, the attacker holds a fake entry badge of some sort and follows an authorized user inside. Piggybacking is a little different in that the attacker doesn't have a badge but asks for someone to let them in anyway."
+    ],
+    [
+        "An attacker has physical access to a building and wants to attain access credentials to the network using nontechnical means. Which of the following social engineering attacks is the best option?",
+        "A. Tailgating\nB. Piggybacking\nC. Shoulder surfing\nD. Sniffing",
+        "C. Shoulder surfing",
+        "Because the attacker is already inside (thus rendering tailgating and piggybacking pointless), the attacker could employ shoulder surfing to gain the access credentials of a user."
+    ],
+    [
+        "Bob decides to employ social engineering during part of his pen test. He sends an unsolicited e-mail to several users on the network advising them of potential network problems and provides a phone number to call. Later that day, Bob performs a DoS on a network segment and then receives phone calls from users asking for assistance. Which social engineering practice is in play here?",
+        "A. Phishing\nB. Impersonation\nC. Technical support\nD. Reverse social engineering",
+        "D. Reverse social engineering",
+        "Reverse social engineering occurs when the attacker uses marketing, sabotage, and support to gain access credentials and other information."
+    ],
+    [
+        "Phishing, pop-ups, and IRC channel use are all examples of which type of social engineering attack?",
+        "A. Human based\nB. Computer based\nC. Technical\nD. Physical",
+        "B. Computer based",
+        "Computer-based social engineering attacks include any measures using computers and technology."
+    ],
+    [
+        "An attacker performs a whois search against a target organization and discovers the technical point of contact (POC) and site ownership e-mail addresses. He then crafts an e-mail to the owner from the technical POC, with instructions to click a link to see web statistics for the site. Instead, the link goes to a fake site where credentials are stolen. Which attack has taken place?",
+        "A. Phishing\nB. Man in the middle\nC. Spear phishing\nD. Human based",
+        "C. Spear phishing",
+        "Spear phishing occurs when the e-mail is being sent to a specific audience, even if that audience is one person. In this example, the attacker used recon information to craft an e-mail designed to be more realistic to the intended victim and therefore more successful."
+    ],
+    [
+        "Which threat presents the highest risk to a target network or resource?",
+        "A. Script kiddies\nB. Phishing\nC. A disgruntled employee\nD. A white-hat attacker",
+        "C. A disgruntled employee",
+        "Everyone recognizes insider threats as the worst type of threat, and a disgruntled employee on the inside is the single biggest threat for security professionals to plan for and deal with."
+    ],
+    [
+        "Which of the following is not a method used to control or mitigate against static electricity in a computer room?",
+        "A. Positive pressure\nB. Proper electrical grounding\nC. Anti-static wrist straps\nD. A humidity control system",
+        "A. Positive pressure",
+        "Positive pressure will do wonderful things to keep dust and other contaminants out of the room, but on its own it does nothing against static electricity."
+    ],
+    [
+        "Phishing e-mail attacks have caused severe harm to a company. The security office decides to provide training to all users in phishing prevention. Which of the following are true statements regarding identification of phishing attempts? (Choose all that apply.)",
+        "A. Ensure e-mail is from a trusted, legitimate e-mail address source.\nB. Verify spelling and grammar is correct.\nC. Verify all links before clicking them.\nD. Ensure the last line includes a known salutation and copyright entry (if required).",
+        "A. Ensure e-mail is from a trusted, legitimate e-mail address source.\nB. Verify spelling and grammar is correct.\nC. Verify all links before clicking them.",
+        "Phishing e-mails can be spotted by who they are from, who they are addressed to, spelling and grammar errors, and unknown or malicious embedded links."
+    ],
+    [
+        "Lighting, locks, fences, and guards are all examples of \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ measures within physical security.",
+        "A. physical\nB. technical\nC. operational\nD. exterior",
+        "A. physical",
+        "Physical security controls fall into three categories: physical, technical, and operational. Physical measures include lighting, fences, and guards."
+    ],
+    [
+        "A man receives a text message on his phone purporting to be from Technical Services. The text advises of a security breach and provides a web link and phone number to follow up on. When the man calls the number, he turns over sensitive information. Which social engineering attack was this?",
+        "A. Phishing\nB. Vishing\nC. Smishing\nD. Man in the middle",
+        "C. Smishing",
+        "The term smishing refers to the use of text messages to socially engineer mobile device users. By definition it is a mobile-based social engineering attack. As an aside, it also sounds like something a five-year-old would say about killing a bug."
+    ],
+    [
+        "Background checks on employees, risk assessments on devices, and policies regarding key management and storage are examples of \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ measures within physical security.",
+        "A. physical\nB. technical\nC. operational\nD. None of the above",
+        "C. operational",
+        "Operational measures are the policies and procedures you set up to enforce a security-minded operation."
+    ],
+    [
+        "A security staff is preparing for a security audit and wants to know if additional security training for the end user would be beneficial. Which of the following methods would be the best option for testing the effectiveness of user training in the environment?",
+        "A. Vulnerability scanning\nB. Application code reviews\nC. Sniffing\nD. Social engineering",
+        "D. Social engineering",
+        "Social engineering is designed to test the human element in the organization. Of the answers provided, it is the only valid option for testing the effectiveness of user training."
+    ],
+    [
+        "What marks the major difference between a hacker and an ethical hacker (pen test team member)?",
+        "A. Nothing.\nB. Ethical hackers never exploit vulnerabilities; they only point out their existence.\nC. The tools they use.\nD. The predefined scope and agreement made with the system owner.",
+        "D. The predefined scope and agreement made with the system owner.",
+        "Pen tests always begin with an agreement with the customer that identifies the scope and activities. An ethical hacker will never proceed without written authorization."
+    ],
+    [
+        "Which of the following best describes a blue team?",
+        "A. Security team members defending a network\nB. Security team members attacking a network\nC. Security team members with full knowledge of the internal network\nD. A performance group at Universal Studios in Orlando",
+        "A. Security team members defending a network",
+        "Blue teams are defense-oriented. They concentrate on preventing and mitigating attacks and efforts of the red team/bad guys."
+    ],
+    [
+        "In which phase of a penetration test is scanning performed?",
+        "A. Pre-attack\nB. Attack\nC. Post-attack\nD. Reconnaissance",
+        "A. Pre-attack",
+        "All reconnaissance efforts occur in the pre-attack phase."
+    ],
+    [
+        "Which type of security assessment notifies the customer of vulnerabilities but does not actively or intentionally exploit them?",
+        "A. Vulnerability assessment\nB. Scanning assessment\nC. Penetration test\nD. None of the above",
+        "A. Vulnerability assessment",
+        "Vulnerability assessments seek to discover open vulnerabilities on the client's systems but do not actively or intentionally exploit any of them."
+    ],
+    [
+        "Which of the following would be a good choice for an automated penetration test? (Choose two.)",
+        "A. Nmap\nB. Netcat\nC. Core Impact\nD. CANVAS",
+        "C. Core Impact\nD. CANVAS",
+        "Core Impact and CANVAS are both automated, all-in-one test tool suites capable of performing a test for a client. Other tools may be used in conjunction with them to spot vulnerabilities, including Nessus, Retina, SAINT, and Sara."
+    ],
+    [
+        "Which type of testing is generally faster and costs less but is susceptible to more false reporting and contract violation?",
+        "A. Internal\nB. External\nC. Manual\nD. Automatic",
+        "D. Automatic",
+        "Automatic testing involves the use of a tool suite and generally runs faster than an all-inclusive manual test. However, it is susceptible to false negatives and false positives and can oftentimes overrun the scope boundary."
+    ],
+    [
+        "Joe is part of a penetration test team and is starting a test. The client has provided him a system on one of their subnets but did not provide any authentication information, network diagrams, or other notable data concerning the systems. Which type of test is Joe performing?",
+        "A. External, white box\nB. External, black box\nC. Internal, white box\nD. Internal, black box",
+        "D. Internal, black box",
+        "Joe is on a system internal to the network and has no knowledge of the target's network. Therefore, he is performing an internal, black-box test."
+    ],
+    [
+        "Which of the following would you find in a final report from a full penetration test? (Choose all that apply.)",
+        "A. Executive summary\nB. A list of findings from the test\nC. The names of all the participants\nD. A list of vulnerabilities patched or otherwise mitigated by the team",
+        "A. Executive summary\nB. A list of findings from the test\nC. The names of all the participants",
+        "The final report for a pen test includes an executive summary, a list of the findings (usually in order of highest risk), the names of all participants, analysis of findings, mitigation recommendations, and any logs or other relevant files."
+    ],
+    [
+        "Which type of security assessment is designed to check policies and procedures within an organization?",
+        "A. Security audit\nB. Vulnerability assessment\nC. Pen test\nD. None of the above",
+        "A. Security audit",
+        "A security audit is used to verify security policies and procedures in place."
+    ]
+]
