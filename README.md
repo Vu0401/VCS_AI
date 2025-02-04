@@ -1,7 +1,9 @@
 # VCS Passport
 
 Please read this README thoroughly before proceeding with any installation.
+
 If you only need to run tests, skip to section `## 3. Test Execution Guide`.
+
 Thank you!
 
 # Task
