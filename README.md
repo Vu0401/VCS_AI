@@ -6,13 +6,27 @@ Thank you!
 
 # Task
 
-The `Certified Ethical Hacker (CEH)` is an international cybersecurity certification issued by EC-Council, designed to assess professionals' ability to identify and fix vulnerabilities in computer systems.
+The Certified Ethical Hacker (CEH) is an international cybersecurity certification issued by EC-Council, designed to assess professionals' ability to identify and fix vulnerabilities in computer systems.
 
 You will be provided with:
 
-Set A: CEH-related knowledge materials
-Set B1: CEH exam questions
-Your task is to fine-tune the (Llama-3.2-1B model)[https://huggingface.co/meta-llama/Llama-3.2-1B] using the provided materials to achieve higher accuracy.
+- **Set A**: CEH-related knowledge materials, including three PDF files:  
+  1. *CEH Certified Ethical Hacker Bundle, 5th Edition - Matt Walker (2022)*  
+  2. *CEH v10 - EC-Council Certified - E-IP Specialist*  
+  3. *Sybex CEH v10 Certified Ethical Hacker*  
+
+- **Set B1**: CEH exam questions  
+
+Your task is to fine-tune the [Llama-3.2-1B model](https://huggingface.co/meta-llama/Llama-3.2-1B) using the provided materials to achieve higher accuracy.
+
+# Solution
+The main workflow of the problem will be illustrated in the diagram below.
+
+![{2E86D8BE-8065-4B71-AA5B-CEA966B67561}](https://github.com/user-attachments/assets/264b6361-944f-40dd-a553-9066c73d4629)
+
+Key methods:
+- Using Docling to convert pdf files to markdown
+- Using llm to convert raw text from books to MCQs   
 
 # Instruction
 
@@ -63,7 +77,6 @@ If you want to run it, follow these steps:
 
  + Step 7 Remove the environment (after testing):
 	`conda remove --name vcs --all`
-
 
 ## 3. Test Execution Guide (For Running Tests Only)
 
