@@ -12,7 +12,7 @@ The Certified Ethical Hacker (CEH) is an international cybersecurity certificati
 
 You will be provided with:
 
-- **Set A**: CEH-related knowledge materials, including three PDF files:  
+- **Set A**: CEH-related knowledge materials, including three PDF files: (download below pdf files and upload them into `data` folder)
   1. *CEH Certified Ethical Hacker Bundle, 5th Edition - Matt Walker (2022)*  
   2. *CEH v10 - EC-Council Certified - E-IP Specialist*  
   3. *Sybex CEH v10 Certified Ethical Hacker*  
@@ -35,10 +35,6 @@ Key Methods:
 # Instruction
 
 ## 1. Folder Structure
-
- + `/Tài_liệu_hướng_dẫn.pdf`: Instructions on running the code, including detailed input and output descriptions for each main file.
-
- + `/Tài_liệu_mô tả_phương_pháp.pdf`: Detailed explanation of the entire problem-solving process.
 
  + `/scr/`: Contains the main source code for processing input data.
 
