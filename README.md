@@ -1,4 +1,4 @@
-# VCS Passport (Viettel Cyber Security Talent programme)
+# VCS Passport (Viettel Cyber Security Talent program)
 
 Please read this README thoroughly before proceeding with any installation.
 
